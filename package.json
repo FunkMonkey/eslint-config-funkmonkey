@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-funkmonkey",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [ ],
+  "author": "AndSelm <and.selm@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:FunkMonkey/eslint-config-funkmonkey.git"
+  },
+  "homepage": "https://github.com/FunkMonkey/eslint-config-funkmonkey",
+  "bugs": {
+    "url": "https://github.com/FunkMonkey/eslint-config-funkmonkey/issues"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-config-airbnb": "16.1.0"
+  }
+}
