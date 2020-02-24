@@ -10,15 +10,15 @@ module.exports = {
       outerIIFEBody: 1,
       // MemberExpression: null,
       FunctionDeclaration: {
-        parameters: "first",
+        parameters: 'first',
         body: 1
       },
       FunctionExpression: {
-        parameters: "first",
+        parameters: 'first',
         body: 1
       },
       CallExpression: {
-        arguments: "off"
+        arguments: 'off'
       },
       ArrayExpression: 1,
       ObjectExpression: 1,
@@ -27,6 +27,7 @@ module.exports = {
       ignoredNodes: ['JSXElement', 'JSXElement *']
     }],
     'linebreak-style': ['off'],
+    'max-len': ['error', { 'code': 120 }],
     'space-in-parens': ['error', 'always' ],
 
     // language conventions
