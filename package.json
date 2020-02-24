@@ -1,8 +1,8 @@
 {
   "name": "eslint-config-funkmonkey",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "description": "",
-  "keywords": [ ],
+  "keywords": [],
   "author": "AndSelm <and.selm@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -15,7 +15,6 @@
   },
   "main": "index.js",
   "dependencies": {
-    "eslint-config-airbnb-base": "12.1.0",
-    "eslint-config-airbnb": "16.1.0"
+    "eslint-config-airbnb-typescript": "7.0.0"
   }
 }

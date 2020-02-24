@@ -1,5 +1,7 @@
 module.exports = {
-  'extends': ['eslint-config-airbnb',
-              './base-changes',
-              './react-changes'].map( require.resolve ),
+  'extends': [
+    'eslint-config-airbnb',
+    require.resolve( './base-changes' ),
+    require.resolve( './react-changes' )
+  ]
 };
