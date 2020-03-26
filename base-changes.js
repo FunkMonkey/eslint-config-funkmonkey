@@ -1,4 +1,7 @@
 module.exports = {
+  'plugins': [
+    'eslint-plugin-modules-newline'
+  ],
   'rules': {
     // formatting conventions
     'array-bracket-spacing': ['off'],
@@ -28,11 +31,19 @@ module.exports = {
     }],
     'linebreak-style': ['off'],
     'max-len': ['error', { 'code': 120 }],
+    'modules-newline/import-declaration-newline': 'error',
+    'modules-newline/export-declaration-newline': 'error',
+    'object-curly-newline': ['error', {
+        'ObjectExpression': { 'multiline': true },
+        'ObjectPattern': { 'multiline': true },
+        'ImportDeclaration': { 'multiline': true, 'minProperties': 2 },
+        'ExportDeclaration': { 'multiline': true, 'minProperties': 2 }
+    }],
     'space-in-parens': ['error', 'always' ],
 
     // language conventions
     'arrow-parens': ['error', 'as-needed'],
-    'curly': 'off',
+    'curly': ["error", "multi-line"],
     'comma-dangle': ['error','only-multiline'],
 
     'no-console': 'warn',
