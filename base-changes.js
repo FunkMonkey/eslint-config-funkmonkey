@@ -29,10 +29,9 @@ module.exports = {
       flatTernaryExpressions: false,
       ignoredNodes: ['JSXElement', 'JSXElement *']
     }],
+    'lines-between-class-members': 'off', // TODO: wait for typescript fix
     'linebreak-style': ['off'],
     'max-len': ['error', { 'code': 120 }],
-    'modules-newline/import-declaration-newline': 'error',
-    'modules-newline/export-declaration-newline': 'error',
     'object-curly-newline': ['error', {
         'ObjectExpression': { 'multiline': true },
         'ObjectPattern': { 'multiline': true },
@@ -43,13 +42,16 @@ module.exports = {
 
     // language conventions
     'arrow-parens': ['error', 'as-needed'],
-    'curly': ["error", "multi-line"],
+    'curly': ["error", "multi"],
     'comma-dangle': ['error','only-multiline'],
-
+    'import/no-default-export': 'error',
+    'import/prefer-default-export': 'off',
+    'max-classes-per-file': ['error', 3],
     'no-console': 'warn',
     'no-param-reassign': 'off',
     'no-plusplus': 'off',
     'no-underscore-dangle': 'off',
     'no-unused-vars': 'warn'
+    
   }
 };

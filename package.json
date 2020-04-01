@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-funkmonkey",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "",
   "keywords": [],
   "author": "AndSelm <and.selm@gmail.com>",
@@ -15,7 +15,6 @@
   },
   "main": "index.js",
   "dependencies": {
-    "eslint-config-airbnb-typescript": "7.0.0",
-    "eslint-plugin-modules-newline": "0.0.1"
+    "eslint-config-airbnb-typescript": "7.0.0"
   }
 }
