@@ -1,8 +1,8 @@
 module.exports = {
   'extends': [
     'airbnb-typescript/base', 
-    require.resolve( './base-changes' ),
     'plugin:import/typescript',
+    require.resolve( './base-changes' ),
     require.resolve( './typescript-changes' )
   ]
 };

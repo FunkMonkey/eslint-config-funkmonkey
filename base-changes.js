@@ -5,6 +5,7 @@ module.exports = {
   'rules': {
     // formatting conventions
     'array-bracket-spacing': ['off'],
+    'brace-style': ['error', '1tbs', { allowSingleLine: false }],
     'computed-property-spacing': ['off'],
     'function-paren-newline': ['error', 'consistent'],
     'indent': ['error', 2, {
@@ -42,7 +43,7 @@ module.exports = {
 
     // language conventions
     'arrow-parens': ['error', 'as-needed'],
-    'curly': ["error", "multi"],
+    'curly': ['error', 'all'],
     'comma-dangle': ['error','only-multiline'],
     'import/no-default-export': 'error',
     'import/prefer-default-export': 'off',
